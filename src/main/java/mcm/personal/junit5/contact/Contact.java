@@ -41,12 +41,12 @@ public class Contact {
     
     public void validateFirstName() {
         if (this.firstName == null)
-            throw new RuntimeException("First Name Cannot be null");
+            throw new RuntimeException("El primer nombre no puede ser nulo");
     }
 
     public void validateLastName() {
         if (this.lastName == null)
-            throw new RuntimeException("Last Name Cannot be null");
+            throw new RuntimeException("El ultimo nombre no puede ser nulo");
     }
 
     public void validatePhoneNumber() {

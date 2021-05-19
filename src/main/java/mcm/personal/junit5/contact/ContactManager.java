@@ -21,7 +21,7 @@ public class ContactManager {
 
     private void checkIfContactAlreadyExist(Contact contact) {
         if (contactList.containsKey(generateKey(contact)))
-            throw new RuntimeException("Contact Already Exists");
+            throw new RuntimeException("El contacto ya existe");
     }
 
     private void validateContact(Contact contact) {
